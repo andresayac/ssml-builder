@@ -25,25 +25,25 @@ Check out [edge-tts](https://github.com/andresayac/edge-tts) - A text-to-speech 
 ## 📦 Installation
 
 ```bash
-npm install @andresayac/ssml-builder
+npm install @andresaya/ssml-builder
 ```
 
 or with yarn:
 
 ```bash
-yarn add @andresayac/ssml-builder
+yarn add @andresaya/ssml-builder
 ```
 
 or with pnpm:
 
 ```bash
-pnpm add @andresayac/ssml-builder
+pnpm add @andresaya/ssml-builder
 ```
 
 ## 🚀 Quick Start
 
 ```typescript
-import { SSMLBuilder } from '@andresayac/ssml-builder';
+import { SSMLBuilder } from '@andresaya/ssml-builder';
 
 const ssml = new SSMLBuilder({ lang: 'en-US' })
   .voice('en-US-AvaNeural')
@@ -324,7 +324,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - [GitHub Repository](https://github.com/andresayac/ssml-builder)
-- [NPM Package](https://www.npmjs.com/package/@andresayac/ssml-builder)
+- [NPM Package](https://www.npmjs.com/package/@andresaya/ssml-builder)
 - [Documentation](https://andresayac.github.io/ssml-builder)
 - [Issues](https://github.com/andresayac/ssml-builder/issues)
 
