@@ -1,11 +1,15 @@
 # SSML Builder for TypeScript
 
-[![npm version](https://img.shields.io/npm/v/@andresayac/ssml-builder.svg)](https://www.npmjs.com/package/@andresayac/ssml-builder)
+[![npm version](https://img.shields.io/npm/v/@andresaya/ssml-builder.svg)](https://www.npmjs.com/package/@andresaya/ssml-builder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Documentation](https://img.shields.io/badge/docs-typedoc-blue.svg)](https://andresayac.github.io/ssml-builder)
 
 A powerful, type-safe TypeScript library for building Speech Synthesis Markup Language (SSML) documents. Create expressive text-to-speech applications with Azure Speech Service and other SSML-compliant engines.
+
+## 🔗 Related Project
+Generate voices using SSML documents created with this library:
+Check out [edge-tts](https://github.com/andresayac/edge-tts) - A text-to-speech generator that uses the SSML documents built with this library to create natural-sounding voices with Azure Speech Service.
 
 ## ✨ Features
 
