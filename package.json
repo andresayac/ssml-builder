@@ -1,8 +1,8 @@
 {
-  "name": "@andresayac/ssml-builder",
-  "version": "1.0.0",
+  "name": "@andresaya/ssml-builder",
+  "version": "1.0.1",
   "description": "TypeScript library for building SSML documents",
-  "author": "Andres Ayac",
+  "author": "Andres Aya",
   "license": "MIT",
   "repository": "github:andresayac/ssml-builder",
   "main": "dist/index.js",
@@ -12,8 +12,13 @@
   ],
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "bun test",
-    "prepublishOnly": "npm run build"
+    "test:watch": "bun test --watch",
+    "test:coverage": "bun test --coverage",
+    "docs": "ts-docgen src/**/*.ts --out-dir docs",
+    "docs:watch": "typedoc --watch",
+    "docs:serve": "bunx serve docs"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
@@ -24,8 +29,5 @@
     "tts",
     "azure",
     "speech"
-  ],
-  "dependencies": {
-    "jest": "^30.0.5"
-  }
+  ]
 }
