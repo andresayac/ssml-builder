@@ -1,0 +1,10 @@
+src/
+examples/
+tests/
+*.ts
+!*.d.ts
+tsconfig.json
+.git
+.gitignore
+bun.lockb
+jest.config.ts

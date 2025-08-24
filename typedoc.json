@@ -1,0 +1,23 @@
+{
+  "entryPoints": ["./src/index.ts"],
+  "out": "docs",
+  "name": "SSML Builder Documentation",
+  "readme": "README.md",
+  "includeVersion": true,
+  "categorizeByGroup": true,
+  "excludeExternals": true,
+  "excludePrivate": true,
+  "excludeProtected": false,
+  "hideGenerator": false,
+  "theme": "default",
+  "lightHighlightTheme": "github-light",
+  "darkHighlightTheme": "github-dark",
+  "navigationLinks": {
+    "GitHub": "https://github.com/andresayac/ssml-builder",
+    "Azure SSML Docs": "https://docs.microsoft.com/azure/cognitive-services/speech-service/speech-synthesis-markup"
+  },
+  "sidebarLinks": {
+    "API Reference": "./api-reference.md",
+    "Examples": "./examples.md"
+  }
+}

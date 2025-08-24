@@ -1,0 +1,12 @@
+*.map
+*.test.ts
+*.spec.ts
+*.md
+.git
+.github
+examples
+docs
+coverage
+tests
+__tests__
+__mocks__
